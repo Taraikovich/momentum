@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="assets/favicon.ico" rel="shortcut icon" />
+  <link rel="stylesheet" href="css/owfont-regular.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>momentum</title>
+</head>
+<body>
+  <header class="header">
+    <div class="player">
+      <div class="player-controls">
+        <button class="play-prev player-icon"></button>
+        <button class="play player-icon"></button>
+        <button class="play-next player-icon"></button>
+        
+          <div class="time-line-progress">
+            <p>track name - track name</p>
+            <div>
+              <div class="line">
+                <div class="point">
+                
+                </div>
+              </div>
+              
+            </div>
+            <p>00:00 / 00:35</p>
+          </div>
+
+          <div class="set-volume">
+            <div class="vol">
+              <!-- <img src="./assets/img/sound_PNG33.png" alt="volume"> -->
+            </div>
+            <div>
+              <div class="volLine">
+                <div class="volDot">
+
+                </div>
+              </div>
+            </div>
+          </div>
+        
+      </div>
+      <div class="time-line">
+
+      </div>
+      <ul class="play-list"></ul>
+    </div>
+    <div class="weather">
+      <input type="text" class="city" />
+      <i class="weather-icon owf"></i>
+      <div class="weather-error"></div>
+      <div class="description-container">
+        <span class="temperature"></span>
+        <span class="weather-description"></span>
+      </div>
+      <div class="wind"></div>
+      <div class="humidity"></div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="slider-icons">
+      <button class="slide-prev slider-icon"></button>
+      <button class="slide-next slider-icon"></button>
+    </div>
+    <time class="time"></time>
+    <date class="date"></date>
+    <div class="greeting-container">
+      <span class="greeting"></span>
+      <input type="text" id="name" class="name" placeholder="[enter your name]" />
+    </div>
+  </main>
+  <footer class="footer">
+    <button class="change-quote"></button>
+    <div>
+      <div class="quote"></div>
+      <div class="author"></div>
+    </div>
+    <button class="setBtn">SETTINGS</button>
+  </footer>
+  <div class="settings settings-hide">
+    <div class="language">
+      <p>Language:</p>
+      <div class="flag eng">
+        <!-- <img src="./assets/img/Flag_of_the_United_Kingdom_(3-5).svg.webp" alt=""> -->
+      </div>
+      <div class="flag rus">
+        <!-- <img src="./assets/img/Flag_of_Russia.svg.webp" alt=""> -->
+      </div>
+    </div>
+  </div>
+  <script type="module" src="./js/script.js"></script>
+</body>
+</html>
